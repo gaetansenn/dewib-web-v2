@@ -1,0 +1,6 @@
+title: Tootbus — Website
+description: Building a new website with Nuxt v2 + TailwindCSS to boost SEO, performance and UX across key pages.
+image: /images/ratp.png
+url: https://www.tootbus.com
+tags: ["Client", "NuxtJS V2", "TailwindCSS", "SEO", "Drupal", "DwUI"]
+date: "2023"

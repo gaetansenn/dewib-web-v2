@@ -1,0 +1,6 @@
+title: Argos — Real-time Logistics Platform
+description: Designed and developed a field operations platform (Vue/Nuxt, NestJS, PostgreSQL, Redis, MQTT). Real-time tracking and ops workflows at scale.
+image: /images/argos.jpg
+url: https://www.protection-civile.org
+tags: ["Client", "Fullstack", "Realtime Websocket", "Nuxt", "NestJS", "PostgreSQL", "Redis", "MQTT", "Lua Script", "Knex/ObjectionJS"]
+date: "2021"

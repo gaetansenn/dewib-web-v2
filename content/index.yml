@@ -1,0 +1,128 @@
+seo:
+  title: "Gaetan SENN - Fullstack JavaScript Developer"
+  description: "Portfolio of Gaetan SENN, Fullstack JavaScript developer in Paris. I build scalable, modern web applications with a focus on performance and user experience."
+
+title: "Hey, I'm Gaetan SENN Fullstack Developer"
+description: "I craft digital experiences where clean code meets thoughtful design, bringing ideas to life with Vue, Nuxt, and Node."
+
+hero:
+  links:
+    - label: "Download my resume"
+      to: https://github.com/nuxt-ui-pro/portfolio
+      color: "neutral"
+  images:
+    - src: /images/franprix.jpg
+      alt: Franprix
+    - src: /images/naos.png
+      alt: Naos
+    - src: /images/pandacola.png
+      alt: Pandacola
+    - src: /images/ratp.png
+      alt: RATP
+about:
+  title: "About Me"
+  description: |
+    I'm a Fullstack JavaScript developer based in Paris with experience across front-end and back-end development. 
+    I specialize in Vue, Nuxt, and Node/NestJS, building modern web applications, APIs, and e-commerce integrations. 
+    My focus is on clean code, scalability, and delivering user-friendly digital experiences.
+
+experience:
+  title: Work Experience
+  items:
+    - position: "Lead Backend at"
+      date: "2025"
+      company:
+        name: Beauteprivee
+        url: "https://www.beauteprivee.fr"
+        color: "#555"
+    - position: "Lead Frontend at"
+      date: "2025"
+      company:
+        name: Valap
+        url: "https://www.new-ventealapropriete.fr"
+        color: "#555"
+    - position: "Lead Frontend at"
+      date: "2024"
+      company:
+        name: Cartier
+        url: "https://www.cartier.fr"
+        color: "#555"
+    - position: "Lead Frontend at"
+      date: "2022 - 2023"
+      company:
+        name: Tootbus
+        url: "https://www.tootbus.com"
+        color: "#555"
+    - position: "Lead Fullstack at"
+      date: "2021 - 2022"
+      company:
+        name: Protection Civile
+        url: "https://www.protection-civile.org/innovationd/la-protection-civile-developpe-un-nouvel-outil-innovant-argos-assistant-de-regulation-et-de-gestion-des-operations-de-secours"
+        color: "#555"
+    - position: "Lead FrontEnd at"
+      date: "2020 - 2021"
+      company:
+        name: Etat Pur
+        url: "https://www.etatpur.fr"
+        color: "#555"
+    - position: "Lead FullStack at"
+      date: "2019 - 2020"
+      company:
+        name: Franprix
+        logo: "i-simple-icons-franprix"
+        url: "https://www.franprix.fr"
+        color: "#555"
+
+testimonials:
+  - quote: "Very good collaboration with Gaëtan who led the project franprix.fr from architecture to production, always with a concern to do well both technically and in terms of customer experience, and providing high quality work. He is comfortable on all types of subjects and has demonstrated strong VueJS, Nuxt, nodeJS and integration expertise. His integration into the team went very well, he takes care of the lead on less experienced developers to advance them. In short, we would be happy to call on him!"
+    author:
+      name: 'Célia - Useradgents'
+      description: 'Project Manager'
+      avatar:
+        src: '/images/testimonials/ua.jpeg'
+        srcset: '/imatges/testimonials/ua.jpeg 2x'
+  - quote: "Very good collaboration with Gaëtan who knew how to bring his VueJS / NuxtJS expertise within the project but also ideas on the UI / UX design part."
+    author:
+      name: 'Helene de brix - Ciruseo / Accenture'
+      description: 'Head of application Development'
+      avatar:
+        src: '/images/testimonials/accenture.jpeg'
+        srcset: '/images/testimonials/accenture.jpeg 2x'
+  - quote: "Gaetan played a key role in the success of the Argos platform. His expertise in fullstack JavaScript development and his ability to quickly translate operational needs into reliable features made a real difference. Beyond the technical skills, he brought strong leadership to the team, ensuring that the solution was both scalable and easy to use in the field."
+    author:
+      name: 'Luigi - Protection Civile'
+      description: 'IT Project Manager'
+      avatar:
+        src: '/images/testimonials/protec.jpeg'
+        srcset: '/images/testimonials/protec.jpeg 2x'
+faq:
+  title: Frequently Asked Questions
+  description: Answers to common questions about my work and approach.
+  categories:
+    - title: Development & Process
+      questions:
+        - label: What technologies do you work with?
+          content:
+            I specialize in modern JavaScript frameworks and tools, including Vue.js, NuxtJS, NodeJS, NestJS, TypeScript, PostgreSQL, Redis, and cloud integrations (Azure, S3, Shopify APIs). I enjoy building applications that are scalable, performant, and user-friendly.
+        - label: What is your development approach?
+          content:
+            My focus is on clean, maintainable code and close collaboration with stakeholders. I follow agile principles, set up CI/CD pipelines when possible, and ensure that features are delivered iteratively to provide value quickly.
+        - label: Do you also handle e-commerce projects?
+          content:
+            Yes. I have experience with Shopify, Magento, and custom integrations for product data, order synchronization, and analytics. I've worked on projects like Ventealapropriete.com and Beauté Privée where scalable e-commerce workflows were key.
+    - title: Work & Collaboration
+      questions:
+        - label: Do you work with startups or larger organizations?
+          content:
+            Both. I've collaborated with startups, digital agencies, and larger organizations such as Franprix, Cartier, and Protection Civile. I adapt my workflow depending on the team size and project structure.
+        - label: Are you open to freelance or full-time roles?
+          content:
+            Yes. I am open to freelance projects, collaborations, or full-time opportunities where I can contribute to impactful digital products.
+    - title: About Me
+      questions:
+        - label: What motivates you as a developer?
+          content:
+            I enjoy solving complex problems through technology and transforming ideas into products that people actually use. Seeing an application scale and make a difference for users is what drives me.
+        - label: What do you enjoy outside of work?
+          content:
+            Outside of coding, I play music with my band (Sable Noir) and enjoy mountain biking and trial. Staying active and creative helps me keep balance and energy in my work.

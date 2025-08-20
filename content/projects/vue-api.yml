@@ -1,0 +1,9 @@
+title: Vue API — Composable API Toolkit for Vue/Nuxt 3
+description: >
+  Evolution of my earlier Nuxt 2 `$api` plugin (dw-api). Vue API automatically scans project routes,
+  generates typed composables, and integrates a powerful data mapper. It simplifies API calls,
+  enforces consistency, and boosts developer productivity in Vue/Nuxt 3 projects.
+image: /images/vue-api.png
+url: https://github.com/gaetansenn/vue-api
+tags: ["Open Source", "Nuxt 3", "Vue 3", "API Toolkit", "Developer Experience"]
+date: "2024"

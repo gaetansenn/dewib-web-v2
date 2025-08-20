@@ -1,0 +1,8 @@
+title: Vunix — UI Toolkit for Nuxt 3 / Vue 3
+description: >
+  Open-source UI toolkit built with Vue and TailwindCSS, offering theme-driven components and utility-first styling (UnoCSS, WindiCSS, Tailwind).
+  I designed it with full TypeScript support and Figma prototypes for seamless customization. Archived after Nuxt UI launch, but maintained as a reference and testament to clean theming architecture.
+image: /images/vunix.png
+url: https://github.com/gaetansenn/vunix
+tags: ["Open Source", "Nuxt 3", "Vue 3", "UI Library", "Archived"]
+date: "2022"

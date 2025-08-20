@@ -1,0 +1,6 @@
+title: XHR Cache — Nuxt Module
+description: Request-level caching for Nuxt apps to reduce latency and save API calls.
+image: /images/xhr.png
+url: https://xhr-cache.dewib.com
+tags: ["Open Source", "Nuxt", "Module", "Performance"]
+date: "2021"

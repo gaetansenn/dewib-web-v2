@@ -1,0 +1,25 @@
+title: About Me
+description: Learn more about my journey as a Fullstack JavaScript Developer, my connection with Nuxt, my passion for open source, and how music has shaped my creativity.
+content: |
+  Hi, I'm **Gaetan SENN**, a Fullstack JavaScript Developer based in Paris.  
+  My journey into web development started naturally: my best friend, **Sébastien Chopin**, created **Nuxt.js**, and through him I discovered a stack that I instantly loved. Nuxt opened the door to building modern websites and applications quickly, cleanly, and with an incredible developer experience. Since then, it has been at the heart of most of my projects.
+  >
+  Over the years, I've worked on everything from **high-traffic e-commerce platforms** to **mission-critical tools for emergency services**. On the frontend, I craft seamless interfaces with **Vue/Nuxt**, while on the backend, I design reliable APIs with **Node/NestJS**. I believe the best digital products come from bridging both worlds — design and engineering, frontend and backend.
+
+  ### My Philosophy
+
+  I'm passionate about **open source** and love creating tools that help other developers build better and faster. From UI libraries to API mappers, my focus is always on making things simpler, scalable, and more enjoyable for the community.  
+  For me, clean code isn't just about syntax — it's about creating experiences where performance, design, and developer happiness align.
+
+  ### Music & Creativity
+
+  Before tech, I was a **DJ**, and music still plays a big role in my life. I've been playing piano since I was 8, and today I perform in [Sable Noir](https://open.spotify.com/intl-fr/artist/6VsmPA7PcXbgYfjWVNkMnp), an electronic music group where I play synthesizers. Music and code have a lot in common: both require structure, creativity, and the joy of bringing ideas to life.
+
+  ### What Drives Me
+
+  What excites me most is the blend of **creativity and technology**: using code to bring concepts to life, helping teams deliver faster, and contributing back to the ecosystem that inspired me. I’m always exploring new ideas, building open-source projects, and collaborating with people who share the same passion for innovation.
+
+  Thanks for stopping by. Feel free to browse my [projects](/projects) or [get in touch](/#contact) if you'd like to collaborate!
+images:
+  - src: /images/piano.png
+    alt: Playing synths with Sable Noir

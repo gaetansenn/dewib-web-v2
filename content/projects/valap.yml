@@ -1,0 +1,6 @@
+title: Ventealapropriete.com — Wine E-commerce Platform
+description: Frontend development for a high-traffic wine flash-sale website. Implemented advanced caching and performance optimizations, and integrated with the client's custom API through a contract-driven interface (DOF).
+image: /images/valap.png
+url: https://new.ventealapropriete.com
+tags: ["Client", "NuxtJS", "Frontend", "E-commerce", "API Integration", "Performance", "Algolia"]
+date: "2024"

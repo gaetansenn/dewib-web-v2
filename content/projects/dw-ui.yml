@@ -1,0 +1,9 @@
+title: DW UI — UI Library for Nuxt 2
+description: >
+  My first UI library for Nuxt 2, providing a lightweight design system and reusable components.
+  It was used in production for major projects like Franprix, Etat Pur, and Tootbus, ensuring consistency and faster development.
+  While less complete than Vunix, it marked an important step in building scalable front-end foundations.
+image: /images/dw-ui.png
+url: https://github.com/gaetansenn/dw-ui
+tags: ["Open Source", "Nuxt 2", "UI Library", "Legacy"]
+date: "2021"
