@@ -8,8 +8,9 @@ description: "I craft digital experiences where clean code meets thoughtful desi
 hero:
   links:
     - label: "Download my resume"
-      to: https://github.com/nuxt-ui-pro/portfolio
+      to: /resume.pdf
       color: "neutral"
+      target: "_blank"
   images:
     - src: /images/franprix.jpg
       alt: Franprix
