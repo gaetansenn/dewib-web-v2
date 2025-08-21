@@ -118,7 +118,6 @@ export default defineNuxtSchema({
           icon: 'i-mdi-palette-outline',
           fields: {
             primary: field({
-              type: 'select',
               title: 'Primary',
               description: 'Primary color of your UI.',
               icon: 'i-mdi-palette-outline',
@@ -126,7 +125,6 @@ export default defineNuxtSchema({
               default: 'violet'
             }),
             neutral: field({
-              type: 'select',
               title: 'Neutral',
               description: 'Neutral color of your UI.',
               icon: 'i-mdi-palette-outline',
