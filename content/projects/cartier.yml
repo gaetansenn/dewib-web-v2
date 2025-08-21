@@ -1,6 +1,5 @@
 title: Cartier — Interactive Watch User Guide
 description: Technical design and prototype for an interactive guide; internal project not yet released.
 image: /images/cartier.png
-url: https://www.cartier.com
 tags: ["Client", "ReactJS", "ContentFul", "Algolia"]
 date: "2023"

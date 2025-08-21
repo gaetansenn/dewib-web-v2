@@ -89,6 +89,7 @@ useSeoMeta({
           </template>
           <template #footer>
             <ULink
+              v-if="project.url"
               :to="project.url"
               class="text-sm text-primary flex items-center"
             >

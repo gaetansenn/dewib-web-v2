@@ -32,14 +32,14 @@ experience:
     - position: "Lead Backend at"
       date: "2025"
       company:
-        name: Beauteprivee
+        name: Beauté Privée
         url: "https://www.beauteprivee.fr"
         color: "#555"
     - position: "Lead Frontend at"
-      date: "2025"
+      date: "2024 - 2025"
       company:
-        name: Valap
-        url: "https://www.new-ventealapropriete.fr"
+        name: Vente à la propriété
+        url: "https://new.ventealapropriete.com"
         color: "#555"
     - position: "Lead Frontend at"
       date: "2024"
@@ -50,7 +50,7 @@ experience:
     - position: "Lead Frontend at"
       date: "2022 - 2023"
       company:
-        name: Tootbus
+        name: Tootbus - RATP
         url: "https://www.tootbus.com"
         color: "#555"
     - position: "Lead Fullstack at"
@@ -60,9 +60,9 @@ experience:
         url: "https://www.protection-civile.org/innovationd/la-protection-civile-developpe-un-nouvel-outil-innovant-argos-assistant-de-regulation-et-de-gestion-des-operations-de-secours"
         color: "#555"
     - position: "Lead FrontEnd at"
-      date: "2020 - 2021"
+      date: "2020 - 2025"
       company:
-        name: Etat Pur
+        name: Etat Pur - Naos
         url: "https://www.etatpur.fr"
         color: "#555"
     - position: "Lead FullStack at"
