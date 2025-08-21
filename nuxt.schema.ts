@@ -7,13 +7,6 @@ export default defineNuxtSchema({
       description: 'Global website configuration',
       icon: 'lucide:settings',
       fields: {
-        meetingLink: field({
-          type: 'string',
-          title: 'Meeting link',
-          description: 'Your meeting link.',
-          icon: 'lucide:calendar',
-          default: 'https://cal.com/'
-        }),
         available: field({
           type: 'boolean',
           title: 'Available',
@@ -26,7 +19,63 @@ export default defineNuxtSchema({
           title: 'Email',
           description: 'Your email address.',
           icon: 'lucide:mail',
-          default: 'ui-pro@nuxt.com'
+          default: 'gaetan.senn@gmail.com'
+        }),
+        meetingLink: field({
+          type: 'string',
+          title: 'Meeting Link',
+          description: 'Link used for the “Let’s talk” button (e.g. Calendly/Cal.com).',
+          icon: 'lucide:calendar',
+          default: ''
+        }),
+        location: field({
+          type: 'string',
+          title: 'Location',
+          description: 'Your base location.',
+          icon: 'lucide:map-pin',
+          default: 'Paris, France'
+        }),
+        resumeLink: field({
+          type: 'string',
+          title: 'Resume URL',
+          description: 'Public link to your résumé/CV (PDF, Notion, GitHub, etc.).',
+          icon: 'lucide:file-text',
+          default: ''
+        }),
+        social: group({
+          title: 'Social',
+          description: 'Your social profiles.',
+          icon: 'lucide:share-2',
+          fields: {
+            github: field({
+              type: 'string',
+              title: 'GitHub',
+              description: 'Your GitHub profile.',
+              icon: 'i-simple-icons-github',
+              default: 'https://github.com/gaetansenn'
+            }),
+            linkedin: field({
+              type: 'string',
+              title: 'LinkedIn',
+              description: 'Your LinkedIn profile.',
+              icon: 'i-simple-icons-linkedin',
+              default: 'https://www.linkedin.com/in/gaetan-senn-9729327b/'
+            }),
+            twitter: field({
+              type: 'string',
+              title: 'Twitter / X',
+              description: 'Your Twitter/X profile.',
+              icon: 'i-simple-icons-x',
+              default: 'https://x.com/gaetansenn'
+            }),
+            spotify: field({
+              type: 'string',
+              title: 'Spotify (Sable Noir)',
+              description: 'Link to your band on Spotify.',
+              icon: 'i-simple-icons-spotify',
+              default: 'https://open.spotify.com/intl-fr/artist/6VsmPA7PcXbgYfjWVNkMnp'
+            })
+          }
         }),
         picture: group({
           title: 'Picture',
@@ -69,20 +118,20 @@ export default defineNuxtSchema({
           icon: 'i-mdi-palette-outline',
           fields: {
             primary: field({
-              type: 'string',
+              type: 'select',
               title: 'Primary',
               description: 'Primary color of your UI.',
               icon: 'i-mdi-palette-outline',
-              default: 'green',
-              required: ['red', 'orange', 'amber', 'yellow', 'lime', 'green', 'emerald', 'teal', 'cyan', 'sky', 'blue', 'indigo', 'violet', 'purple', 'fuchsia', 'pink', 'rose']
+              options: ['red', 'orange', 'amber', 'yellow', 'lime', 'green', 'emerald', 'teal', 'cyan', 'sky', 'blue', 'indigo', 'violet', 'purple', 'fuchsia', 'pink', 'rose'],
+              default: 'violet'
             }),
             neutral: field({
-              type: 'string',
+              type: 'select',
               title: 'Neutral',
               description: 'Neutral color of your UI.',
               icon: 'i-mdi-palette-outline',
-              default: 'slate',
-              required: ['slate', 'gray', 'zinc', 'neutral', 'stone']
+              options: ['slate', 'gray', 'zinc', 'neutral', 'stone'],
+              default: 'slate'
             })
           }
         }),
@@ -145,9 +194,9 @@ export default defineNuxtSchema({
         siteName: field({
           type: 'string',
           title: 'Site Name',
-          description: 'Name used in ogSiteName and used as second part of your page title (My page title - Nuxt UI Pro).',
+          description: 'Used in og:site_name and as the second part of your page title.',
           icon: 'i-mdi-web',
-          default: []
+          default: 'Gaetan SENN — Portfolio'
         })
       }
     }),
@@ -166,7 +215,7 @@ export default defineNuxtSchema({
         links: field({
           type: 'array',
           title: 'Links',
-          description: 'Array of link object displayed in footer.',
+          description: 'Array of link objects displayed in footer.',
           icon: 'i-mdi-link-variant',
           default: []
         })
