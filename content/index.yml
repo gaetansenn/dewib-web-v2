@@ -80,7 +80,7 @@ testimonials:
       description: 'Project Manager'
       avatar:
         src: '/images/testimonials/ua.jpeg'
-        srcset: '/imatges/testimonials/ua.jpeg 2x'
+        srcset: '/images/testimonials/ua.jpeg 2x'
   - quote: "Very good collaboration with Gaëtan who knew how to bring his VueJS / NuxtJS expertise within the project but also ideas on the UI / UX design part."
     author:
       name: 'Helene de brix - Ciruseo / Accenture'

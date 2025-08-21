@@ -38,14 +38,14 @@ export default defineNuxtSchema({
               title: 'Dark mode',
               description: 'Your profile picture in dark mode.',
               icon: 'lucide:moon',
-              default: 'https://media.licdn.com/dms/image/v2/D4D03AQH_WLyhSKZEjA/profile-displayphoto-crop_800_800/B4DZg83lebHAAc-/0/1753367861730?e=1758758400&v=beta&t=lDHSgZl4xv16m78VHXHd6GCuIOSlYCXCDmcs0gP1yxQ'
+              default: '/images/me.jpg'
             }),
             light: field({
               type: 'string',
               title: 'Light mode',
               description: 'Your profile picture in light mode.',
               icon: 'lucide:sun',
-              default: 'https://media.licdn.com/dms/image/v2/D4D03AQH_WLyhSKZEjA/profile-displayphoto-crop_800_800/B4DZg83lebHAAc-/0/1753367861730?e=1758758400&v=beta&t=lDHSgZl4xv16m78VHXHd6GCuIOSlYCXCDmcs0gP1yxQ'
+              default: '/images/me.jpg'
             }),
             alt: field({
               type: 'string',

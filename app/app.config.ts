@@ -1,8 +1,8 @@
 export default defineAppConfig({
   global: {
     picture: {
-      dark: 'https://media.licdn.com/dms/image/v2/D4D03AQH_WLyhSKZEjA/profile-displayphoto-crop_800_800/B4DZg83lebHAAc-/0/1753367861730?e=1758758400&v=beta&t=lDHSgZl4xv16m78VHXHd6GCuIOSlYCXCDmcs0gP1yxQ',
-      light: 'https://media.licdn.com/dms/image/v2/D4D03AQH_WLyhSKZEjA/profile-displayphoto-crop_800_800/B4DZg83lebHAAc-/0/1753367861730?e=1758758400&v=beta&t=lDHSgZl4xv16m78VHXHd6GCuIOSlYCXCDmcs0gP1yxQ',
+      dark: '/images/me.jpg',
+      light: '/images/me.jpg',
       alt: 'My profile picture'
     },
     meetingLink: 'https://cal.com/',
